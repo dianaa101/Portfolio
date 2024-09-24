@@ -2,6 +2,12 @@
     background-color: black;
 }
 
+section {
+    height: 100vh; 
+    padding: 100px 20px; 
+    box-sizing: border-box; 
+}
+
 
 .header {
     display: flex;
@@ -36,19 +42,19 @@ nav ul li a {
     font-size: 17px;
     font-weight: bold;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 30px;
     transition: background 0.3s;
 }
 
 nav ul li a:hover {
     background-color: #cda3e7;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .picture-text-container {
     display: flex;
     justify-content: center;
-    padding: 90px;
+    margin-top: 40px;
     gap: 10px;
 }
 
@@ -89,7 +95,7 @@ nav ul li a:hover {
 }
 
 .fa {
-    display: inline-block; /* Change to inline-block */
+    display: inline-block; 
     text-align: center;
     text-decoration: none;
     letter-spacing: 3px;
@@ -114,6 +120,21 @@ nav ul li a:hover {
     border-bottom: 1px;
     border-color: #cda3e7;
     background-color: #cda3e7;
-    border-radius: 50%;
+    border-radius: 30%;
+}
+
+.gotopbtn {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: black;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 20px;
 }
 
